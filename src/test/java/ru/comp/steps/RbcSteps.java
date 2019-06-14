@@ -4,6 +4,9 @@ import org.testng.Assert;
 import ru.comp.pages.HomePage;
 import ru.comp.pages.ResultsPage;
 
+/**
+ *
+ */
 public class RbcSteps {
 
     private HomePage homePage;

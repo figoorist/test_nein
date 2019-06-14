@@ -7,4 +7,4 @@ TestNG
 Parameters and running - testng.xml
 
 
-Page object pattern is represented in Steps -> Pages -> Fasades hierarchy
+Page object pattern is represented with Steps -> Pages -> Fasades hierarchy

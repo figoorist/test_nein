@@ -17,8 +17,7 @@ public class RbcTestNgTest extends TestNgTestBase {
     private RbcSteps rbcSteps;
 
     @BeforeClass
-    @Parameters({"siteUrl"})
-    public void initPageObjects(String siteUrl) {
+    public void initPageObjects() {
 
         rbcSteps = new RbcSteps(PageFactory.initElements(driver, HomePage.class),
                 PageFactory.initElements(driver, ResultsPage.class));
@@ -38,7 +37,7 @@ public class RbcTestNgTest extends TestNgTestBase {
 
     @Test
     @Parameters({"incorrectQuery"})
-    public void testSearchFeatureIncorrectQuery(String incorrectQuery) {
+    public void testSearchFeatureFoolishQuery(String incorrectQuery) {
         rbcSteps.CheckSearchQuery(incorrectQuery, true);
     }
 }

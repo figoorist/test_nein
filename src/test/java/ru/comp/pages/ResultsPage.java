@@ -3,9 +3,9 @@ package ru.comp.pages;
 import org.openqa.selenium.WebDriver;
 import ru.comp.facades.ResultsPageFacade;
 
-import java.util.ArrayList;
-import java.util.List;
-
+/**
+ *
+ */
 public class ResultsPage extends Page<ResultsPageFacade> {
 
     /**
