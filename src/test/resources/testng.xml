@@ -6,7 +6,7 @@
     <parameter name="correctQuery" value="РОС"/>
     <parameter name="incorrectQuery" value="йййй"/>
     <classes>
-      <class name="ru.comp.RbcTestNgTest"/>
+      <class name="ru.comp.home_page_tests.RbcTestNgTest"/>
     </classes>
   </test>  
 </suite>

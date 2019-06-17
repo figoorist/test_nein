@@ -16,7 +16,6 @@ public class TestNgTestBase {
 
   @BeforeClass
   public void initTestSuite() {
-      System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
       driver = new ChromeDriver();
       //set wait timeout
       driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

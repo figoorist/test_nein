@@ -1,15 +1,12 @@
-package ru.comp;
+package ru.comp.home_page_tests;
 
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.support.PageFactory;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import ru.comp.pages.HomePage;
-import ru.comp.pages.ResultsPage;
+import ru.comp.TestNgTestBase;
 import ru.comp.steps.RbcSteps;
 
 public class RbcTestNgTest extends TestNgTestBase {
@@ -19,8 +16,7 @@ public class RbcTestNgTest extends TestNgTestBase {
     @BeforeClass
     public void initPageObjects() {
 
-        rbcSteps = new RbcSteps(PageFactory.initElements(driver, HomePage.class),
-                PageFactory.initElements(driver, ResultsPage.class));
+        rbcSteps = new RbcSteps(driver);
     }
 
     @BeforeMethod
