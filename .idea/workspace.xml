@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9ae4d33-fcaf-4ccd-bd68-93f7d61aea28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/RbcTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/home_page_tests/RbcTestNgTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/steps/RbcSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/steps/RbcSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_nein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test_nein.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/pages/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/pages/ResultsPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,25 +27,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="200">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="310">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,10 +53,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/ResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="220">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/RbcSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="300">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/home_page_tests/RbcTestNgTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,14 +154,14 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/facades/ResultsPageFacade.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/facades/HomePageFacade.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/ResultsPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/RbcTestNgTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/steps/RbcSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/home_page_tests/RbcTestNgTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/ResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" />
       </list>
     </option>
   </component>
@@ -254,7 +252,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="comp" type="462c0819:PsiDirectoryNode" />
-              <item name="home_page_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_nein" type="b2602c69:ProjectViewProjectNode" />
@@ -326,34 +324,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.14 at 15h 54m 00s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.14 at 15h 57m 39s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.14 at 15h 59m 08s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.14 at 16h 03m 04s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 16h 34m 52s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 16h 51m 44s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 17h 08m 59s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 17h 19m 44s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 17h 21m 27s.xml">
-      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 17h 35m 10s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 17h 47m 40s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 17h 53m 46s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 18h 00m 13s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 18h 02m 03s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 18h 08m 06s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 18h 12m 39s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 18h 15m 22s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 18h 16m 51s.xml">
+      <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_nein_src_test_resources_testng_xml - 2019.06.17 at 18h 23m 06s.xml">
       <configuration name="/home/viktor/java_projects/test_nein/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -468,52 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/ResultsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/RbcSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/home_page_tests/RbcTestNgTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -522,8 +478,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/RbcSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/ResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

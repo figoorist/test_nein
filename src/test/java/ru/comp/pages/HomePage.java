@@ -3,6 +3,8 @@ package ru.comp.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Home page
@@ -18,15 +20,15 @@ public class HomePage extends Page {
     }
 
     private WebElement getSearchFeatureButton(){
-        return driver.findElement(By.xpath("//*[@class = 'topline__search__menu js-search-open']"));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class = 'topline__search__menu js-search-open']")));
     }
 
     private WebElement getSearchInput() {
-        return driver.findElement(By.xpath("//input[@name = 'query']"));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name = 'query']")));
     }
 
     private WebElement getGoSearchButton() {
-        return driver.findElement(By.xpath("//input[@type = 'submit']"));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type = 'submit']")));
     }
 
     public void GoToSearchFeature() {

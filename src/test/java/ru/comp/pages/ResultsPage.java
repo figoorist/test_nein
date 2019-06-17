@@ -1,8 +1,10 @@
 package ru.comp.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -21,15 +23,22 @@ public class ResultsPage extends Page {
     }
 
     private List<WebElement> getResultSearchItems() {
-        return driver.findElements(By.xpath("//*[contains(@class, 'search-item js-search-item')]"));
+        return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//*[contains(@class, 'search-item js-search-item')]")));
     }
 
     private WebElement getNoResultsBlock() {
-        return driver.findElement(By.xpath("//*[contains(@class, 'g-nofound')]"));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(@class, 'g-nofound')]")));
     }
 
     public int getResultsCount() {
-        return getResultSearchItems().size();
+        int countOfResults = 0;
+        try {
+            countOfResults = getResultSearchItems().size();
+        }
+        catch (TimeoutException e){
+        }
+
+        return countOfResults;
     }
 
     public boolean NoResultsBlockIsDisplayed() {

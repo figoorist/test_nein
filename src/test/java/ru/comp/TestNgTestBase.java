@@ -17,8 +17,6 @@ public class TestNgTestBase {
   @BeforeClass
   public void initTestSuite() {
       driver = new ChromeDriver();
-      //set wait timeout
-      driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
       //maximize screen
       driver.manage().window().maximize();
   }
