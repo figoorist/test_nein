@@ -1,12 +1,15 @@
 package ru.comp.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import ru.comp.facades.ResultsPageFacade;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 /**
  *
  */
-public class ResultsPage extends Page<ResultsPageFacade> {
+public class ResultsPage extends Page {
 
     /**
      * Constructor
@@ -15,14 +18,21 @@ public class ResultsPage extends Page<ResultsPageFacade> {
     public ResultsPage(WebDriver webDriver) {
 
         super(webDriver);
-        facade = new ResultsPageFacade();
+    }
+
+    private List<WebElement> getResultSearchItems() {
+        return driver.findElements(By.xpath("//*[contains(@class, 'search-item js-search-item')]"));
+    }
+
+    private WebElement getNoResultsBlock() {
+        return driver.findElement(By.xpath("//*[contains(@class, 'g-nofound')]"));
     }
 
     public int getResultsCount() {
-        return driver.findElements(facade.ResultSearchItem).size();
+        return getResultSearchItems().size();
     }
 
     public boolean NoResultsBlockIsDisplayed() {
-        return driver.findElement(facade.NoResultsBlock).isDisplayed();
+        return getNoResultsBlock().isDisplayed();
     }
 }
