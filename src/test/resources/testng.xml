@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Tests" verbose="5">
   <test name="test_nein">
-    <parameter name="siteUrl" value="https://www.rbc.ru"/>
-    <parameter name="correctQuery" value="РОС"/>
-    <parameter name="incorrectQuery" value="йййй"/>
+    <parameter name="siteUrl" value="https://edition.cnn.com/"/>
+    <parameter name="correctQuery" value="NFL"/>
+    <parameter name="incorrectQuery" value="NFLFake"/>
     <classes>
-      <class name="ru.comp.home_page_tests.RbcTestNgTest"/>
+      <class name="ru.comp.tests.SearchNewsTestClass"/>
     </classes>
-  </test>  
+  </test>
 </suite>
